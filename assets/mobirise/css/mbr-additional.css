@@ -1210,8 +1210,8 @@ a {
   color: #082c4e;
 }
 .cid-sg7cHbByv5 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
   background-color: #082c4e;
 }
 @media (max-width: 991px) {
@@ -1228,10 +1228,11 @@ a {
 .cid-sg7cHbByv5 .mbr-text,
 .cid-sg7cHbByv5 .mbr-section-btn {
   color: #ffffff;
+  text-align: center;
 }
 .cid-sg6XY0ZRRG {
-  padding-top: 7rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 7rem;
   overflow: hidden;
   background-color: #ffffff;
 }
