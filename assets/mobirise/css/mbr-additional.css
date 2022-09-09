@@ -1382,43 +1382,6 @@ a {
 .cid-sg6YbuPsny .link-wrap {
   color: #000000;
 }
-.cid-sg6ZzTQ3BZ {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-.cid-sg6ZzTQ3BZ .first {
-  border-top: 1px solid #3098f3;
-  padding-top: 1rem;
-}
-.cid-sg6ZzTQ3BZ .icon {
-  position: relative;
-  margin: 0;
-  padding-top: 1rem;
-  border-bottom: 1px solid #3098f3;
-  padding-right: 2rem;
-}
-.cid-sg6ZzTQ3BZ .icon div {
-  padding: 0;
-}
-.cid-sg6ZzTQ3BZ .icon:before {
-  position: absolute;
-  cursor: pointer;
-  right: 0px;
-  content: "\e909";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  background-color: #3098f3;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  top: 20%;
-  font-family: 'Moririse2' !important;
-  font-size: 0.8rem;
-  padding-left: 3px;
-}
 .cid-sg6Ye9Nxhl {
   padding-top: 6rem;
   padding-bottom: 6rem;
