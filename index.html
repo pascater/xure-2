@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
@@ -35,7 +36,20 @@
   
   
 
-</head>
+<meta name="theme-color" content="#3098f3">
+<link rel="manifest" href="manifest.json">
+<script src="sw-connect.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Xure.it">
+<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
   
   <section class="menu menu1 cid-sg6Xmo71ac" once="menu" id="menu1-1">
@@ -45,7 +59,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="#">
-                        <img src="assets/images/xure-online-insurance-nuovo-logo-1.png" alt="" style="height: 5.4rem;">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" style="height: 5.4rem;" loading="lazy" class="lazyload" data-src="assets/images/xure-online-insurance-nuovo-logo-1.png">
                     </a>
                 </span>
                 
@@ -98,7 +112,7 @@
             </div>
             <div class="col-12 col-md-12 col-lg-5">
                 <div class="image-wrapper">
-                    <img class="w-100" src="assets/images/xure-online-insurance-nuovo-logo-1.png" alt="" title="">
+                    <img class="w-100 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" title="" loading="lazy" data-src="assets/images/xure-online-insurance-nuovo-logo-1.png">
                 </div>
             </div>
         </div>
@@ -131,7 +145,7 @@
                 <div class="card-wrapper card2">
                     <div class="card-box align-left">
                         
-                        <h5 class="card-title mbr-fonts-style display-5">Polizza Tutelalegale</h5>
+                        <h5 class="card-title mbr-fonts-style display-5">Polizza Tutela legale</h5>
                         
                         <h6 class="link mbr-fonts-style display-4">Tutela-legale.net</h6>
                     </div>
@@ -143,7 +157,7 @@
                         
                         <h5 class="card-title mbr-fonts-style display-5">Polizza Rischio Volo</h5>
                         
-                        <h6 class="link mbr-fonts-style display-4">RischioVolo.it</h6>
+                        <h6 class="link mbr-fonts-style display-4">RischioVolo.it <br>(in arrivo)</h6>
                     </div>
                 </div>
             </div>
@@ -153,7 +167,7 @@
                         
                         <h5 class="card-title mbr-fonts-style display-5">Polizza <br>RC auto</h5>
                         
-                        <h6 class="link mbr-fonts-style display-4">Polizza-auto.it</h6>
+                        <h6 class="link mbr-fonts-style display-4">Polizza-auto.net</h6>
                     </div>
                 </div>
             </div>
@@ -164,7 +178,7 @@
                         
                         <h5 class="card-title mbr-fonts-style display-5">Polizza Malattia</h5>
                         
-                        <h6 class="link mbr-fonts-style display-4">Rimborso spese sanitarie e Longevity Risk</h6>
+                        <h6 class="link mbr-fonts-style display-4">Rimborso spese sanitarie e Longevity Risk. (In arrivo)</h6>
                     </div>
                 </div>
             </div>
@@ -284,7 +298,7 @@
             </div>
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img class="w-100" src="assets/images/features2.jpg" alt="">
+                    <img class="w-100 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" data-src="assets/images/features2.jpg">
                 </div>
             </div>
         </div>
@@ -483,7 +497,7 @@
 
             <div class="d-flex col-lg-12">
                 <div class="image-wrapper">
-                    <img src="assets/images/team1.jpg" alt="">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/team1.jpg">
                 </div>
                 <div class="text-wrapper">
                     <p class="name mbr-fonts-style mb-1 display-4">
@@ -515,7 +529,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/team1.jpg">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="lazyload" data-src="assets/images/team1.jpg">
                     </div>
                     <div class="content-wrap">
                         <h5 class="card-title mbr-fonts-style align-center m-0 display-5">
@@ -534,7 +548,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/team2.jpg">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="lazyload" data-src="assets/images/team2.jpg">
                     </div>
                     <div class="content-wrap">
                         <h5 class="card-title mbr-fonts-style align-center m-0 display-5">
@@ -553,7 +567,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/team3.jpg">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="lazyload" data-src="assets/images/team3.jpg">
                     </div>
                     <div class="content-wrap">
                         <h5 class="card-title mbr-fonts-style align-center m-0 display-5">
@@ -572,7 +586,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/team4.jpg">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="lazyload" data-src="assets/images/team4.jpg">
                     </div>
                     <div class="content-wrap">
                         <h5 class="card-title mbr-fonts-style align-center m-0 display-5">
@@ -654,15 +668,6 @@
     </div>
 </section>
 
-<section class="map2 cid-sg6YjMtsPG" id="map01-9">
-    
-    
-    <div>
-        
-        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDk89J4FSunMF33ruMVWJaJht_Ro0kvoXs&amp;q=350 5th Ave, New York, NY 10118" allowfullscreen=""></iframe></div>
-    </div>
-</section>
-
 <section class="footer1 form cid-sg6YjZvF7K" once="footers" id="footer01-a">
     
     
@@ -727,7 +732,7 @@
                         UPDATES</strong></h5>
 
                 <!--Formbuilder Form-->
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="SGSrYoEZqA5AbhUUkV+AnoufC6XPI4CXsR725+ee9N1TkEf9FTAZftD0n9vmLTyHMO241zLuIPFMRlrYkLYGg5yrPDhsL8AKQdpIYxJUw5idBnBjvBf+b4DP1dlQGasQ.pBKZMpt5uhKVd7Zt3XrjpW0N//Jd5IVFzvFUAaQbhrrCFY9T+a/w4Y2mjTvbmV6kWF3sCvG0nXWEglfmFb+kMtLbnWNhDxcwoGyBcKEBCOXae2lp3cMuFPsmDf5V6KLE">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="jQpp75rWdOMCjx1SAi/NC33rvcICZ7Nbni6pWB3lp7IIxHDURQMS7/q2y/gUQIcS3Rf2DligT7zrgpouT/NH3n/OafzkrfkRoddq99VkD2ZK+PvZDQei1GYljXYMg01d.7khuMDjBdc6d3hFLPwHXQaIT0kXAhcIsphP5bDQQDuj603CecAf7YCfzYU4GD+i/n6SKkielz7gqVXCzS8M92VcsMJ5TzDU9zLveNkRR3TkGs5e8KW6XGXIKn42yZadH">
                     <div class="form-row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
                             the form!</div>
@@ -765,6 +770,7 @@
   
   
   
+<script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"],iframe[loading="lazy"]').forEach(e=>{e.src=e.dataset.src,e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%",e.style.height=0,e.onload=function(){e.removeAttribute("style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js",document.body.appendChild(e)}</script>
 
 </body>
 </html>
